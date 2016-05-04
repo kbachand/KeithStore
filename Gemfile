@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+gem 'figaro' #security. Created an application yml file to put the keys in and puts it to an ignore file so it doesnt push it all to git.
 gem 'devise'
 gem 'paperclip'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

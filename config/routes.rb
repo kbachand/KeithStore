@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  post "order_complete" => 'carts#order_complete'
+
   resources :line_items
   resources :carts
   get 'categorical' => 'storefront#items_by_category'
