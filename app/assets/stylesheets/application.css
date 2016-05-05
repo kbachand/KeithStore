@@ -1,52 +1,18 @@
-
-body {
-  background-image: url("https://images.unsplash.com/photo-1449168013943-3a15804bb41c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1958d4bfb59a246c6092ff0daabd284b");
-  background-position: fixed;
-  background-size: cover;
-
-
-
-}
-.jumbotron {
-  background-color: transparent;
-  color: #2B9EC4;
-}
-
-.jumbotron p {
-  margin-left: 48px;
-}
-
-.navbar {
-  background-color: transparent;
-  border-color: transparent;
-}
-
- .navbar-default .navbar-nav > li > a {
-   color: black; /*Change active text color here*/
-    }
-
-.navbar-default .navbar-nav > li > a:hover{
-color: #2B9EC4;
-}
-
-.navbar-default .navbar-brand {
-    color: white;
-
-}
-
-.coolpic:hover {
-    opacity: 0.6;
-    filter: alpha(opacity=60);
-}
-
-.coolpic {
- margin-top: 150px;
-}
-
-.footer {
-  color: white;
-  margin-top: 60px;
-}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
 
 
 
