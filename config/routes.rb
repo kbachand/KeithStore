@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'categorical' => 'storefront#items_by_category'
 
   get 'branding' => 'storefront#items_by_brand'
+  get 'all_items' => 'storefront#all_items'
 
   devise_for :users
   resources :categories
@@ -16,7 +17,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'storefront#all_items'
+  root 'storefront#front_page'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
